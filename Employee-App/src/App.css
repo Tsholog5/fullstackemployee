@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(212, 194, 202);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  width: 100%;
+  padding-right: 50px;
+}
+
+.navButton {
+  width: 200px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: rgb(238, 231, 233);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navButton.active {
+  background-color: rgb(200, 200, 200);
+}
+
+input, select {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(210, 181, 187);
+  border: none;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: rgb(238, 231, 233);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.error {
+  color: red;
+}
+
+.formContainer, .listContainer {
+  background-color: rgb(246, 241, 242);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: rgb(247, 242, 244);
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-bottom: 10px;
+  background-color: rgb(246, 241, 242);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.listButton {
+  margin: 5px;
+}
